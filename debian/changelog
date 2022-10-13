@@ -1,0 +1,12 @@
+node-inflight (1.0.6-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Sun, 27 Dec 2020 17:26:03 +0100
+
+node-inflight (1.0.6-1) unstable; urgency=low
+
+  * Initial release (Closes: #841176)
+
+ -- Pirate Praveen <praveen@debian.org>  Tue, 18 Oct 2016 16:18:16 +0530
