@@ -1,9 +1,35 @@
-node-inflight (1.0.6-1.1) unstable; urgency=medium
+node-inflight (1.0.6-2) unstable; urgency=medium
 
-  * Non maintainer upload by the Reproducible Builds team.
-  * No source change upload to rebuild on buildd with .buildinfo files.
+  * Team upload
 
- -- Holger Levsen <holger@debian.org>  Sun, 27 Dec 2020 17:26:03 +0100
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+  * Remove constraints unnecessary since buster:
+    + node-inflight: Drop versioned constraint on node-once and node-wrappy
+      in Depends.
+  * Remove empty leading paragraph in Description.
+  * Bump debhelper from old 12 to 13.
+
+  [ Yadd ]
+  * Declare compliance with policy 4.6.0
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Modernize debian/watch
+    * Fix filenamemangle
+    * Fix GitHub tags regex
+  * Drop nodejs dependency
+  * Use dh-sequence-nodejs auto install
+  * Enable upstream test (tap)
+
+ -- Yadd <yadd@debian.org>  Fri, 10 Dec 2021 06:44:44 +0100
 
 node-inflight (1.0.6-1) unstable; urgency=low
 
